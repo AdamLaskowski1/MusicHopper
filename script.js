@@ -1,4 +1,4 @@
-/ $(document).ready(function(){
+git$(document).ready(function(){
     //     $('select').formSelect();
     //   });
     //   var queryURL = "https://www.themealdb.com/api/json/v1/1/filter.php?c=" + category;
