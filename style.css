@@ -1,3 +1,41 @@
 .container {
     margin-top: 50px;
 }
+
+#foodImage {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+#drinkImage {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.search{
+    border-radius: 50%;
+    background: #34e2e5;
+    box-shadow: inset 5px -5px 5px #2bbcbe, 
+                inset -5px 5px 5px #3dffff;
+  }
+
+  .card {
+    height: 350px;
+    width: 600px;
+  }
+
+  #searchBox {
+    text-align: center;
+  }
+
+  .food {
+    text-align: center;
+  }
+
+  #drinkInstuctions {
+      font-size: 18px;
+      line-height: 1.4em;
+  }
