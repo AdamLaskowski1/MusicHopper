@@ -1,6 +1,15 @@
-# Project 1
+# munchieXroulette
 
-## Application Requirements
+## Team Members
+### Daniel Moreno, Alejandro Sanchez, Adam Laskowski and Andres Mireles
+
+https://adamlaskowski1.github.io/munchieXroulette/
+
+![aboutMe](Capture.JPG)
+
+## Motivation
+
+We’ve experienced going through our day not knowing what we going to have to eat or have a significant other that cant pick what to eat. This application takes the stress out of making that difficult decision.
 
 Your project should fulfill the following requirements:
 
