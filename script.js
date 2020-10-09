@@ -23,97 +23,56 @@ searchButton.on("change", function () {
             method: "GET"
         }).then(function (cocktailDB) {
             // console.log(mealDB.meals);
+            var randomMealNumber = Math.floor(Math.random() * mealDB.meals.length);
 
-            var meal = mealDB.meals[0].strMeal;
-            foodTitleEl.text(meal)
+            var randomMeal = mealDB.meals[randomMealNumber];
 
-            var mealImage = mealDB.meals[0].strMealThumb;
+            console.log("this is the meal:", randomMeal);
+
+            foodTitleEl.text(randomMeal.strMeal);
+
+            var mealImage = randomMeal.strMealThumb;
+            console.log("mealImage:", mealImage);
             foodImageEl.attr("src", mealImage)
 
-            var drink = cocktailDB.drinks[0].strDrink;
-            drinkTitleEl.text(drink)
 
-            var drinkImage = cocktailDB.drinks[0].strDrinkThumb;
+
+            var randomNumberDrink = Math.floor(Math.random() * cocktailDB.drinks.length);
+
+            var randomDrink = cocktailDB.drinks[randomNumberDrink];
+
+
+
+
+
+            var drink = randomDrink.strDrink;
+            drinkTitleEl.text(drink);
+
+            var drinkImage = randomDrink.strDrinkThumb;
             drinkImageEl.attr("src", drinkImage)
 
-            var drinkInstructions = cocktailDB.drinks[0].strInstructions;
+            var drinkInstructions = randomDrink.strInstructions;
             drinkInstructionsEl.text(drinkInstructions)
+            console.log(randomDrink);
 
-            console.log(cocktailDB);
-            if (category == "1") {
-                // this for loop give us back 4 random results for "beef"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 34)]);
-                }
-            }
-            if (category == "2") {
-                // this for loop give us back 4 random results for "breakfast"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 7)]);
-                }
-            }
-            if (category == "3") {
-                // this for loop give us back 4 random results for "chicken"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 32)]);
-                }
-            }
-            if (category == "4") {
-                // this for loop give us back 4 random results for "dessert"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 60)]);
-                }
-            }
-            if (category == "5") {
-                // this for loop give us back 4 random results for "lamb"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 14)]);
-                }
-            }
-            if (category == "6") {
-                // this for loop give us back 4 random results for "misc."
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 11)]);
-                }
-            }
-            if (category == "7") {
-                // this for loop give us back 4 random results for "pasta"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 8)]);
-                }
-            }
-            if (category == "8") {
-                // this for loop give us back 4 random results for "pork"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 13)]);
-                }
-            }
-            if (category == "9") {
-                // this for loop give us back 4 random results for "seafood"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 21)]);
-                }
-            }
-            if (category == "10") {
-                // this for loop give us back 4 random results for "side"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 11)]);
-                }
-            }
-            if (category == "11") {
-                // this for loop give us back 4 random results for "starter"
-                console.log(mealDB.meals);
-            }
-            if (category == "12") {
-                // this for loop give us back 4 random results for "vegan"
-                console.log(mealDB.meals);
-            }
-            if (category == "13") {
-                // this for loop give us back 4 random results for "Vegetarian"
-                for (var i = 0; i < 5; i++) {
-                    console.log(mealDB.meals[Math.floor(Math.random() * 31)]);
-                }
-            }
+            // for() {
+
+            // }
+
+            // console.log("meal db", mealDB);
+
+
+
+            // console.log("random number:" + randomNumber);
+
+
+
+
+
+
+
+
+
         });
     });
 });
