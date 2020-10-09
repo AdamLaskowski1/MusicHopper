@@ -11,6 +11,20 @@ https://adamlaskowski1.github.io/munchieXroulette/
 
 We’ve experienced going through our day not knowing what we going to have to eat or have a significant other that cant pick what to eat. This application takes the stress out of making that difficult decision.
 
+## Tech/Framwork used
+
+* Materialize CSS Framework
+* JavaScript (jQuery)
+* HTML
+* CSS
+* Third Party APIs
+    * https://www.themealdb.com/api.php
+    * https://www.thecocktaildb.com/api.php
+
+## Features
+
+User interface is very navigable and responsive with computer screens and mobile devices
+
 Your project should fulfill the following requirements:
 
 * Use a CSS framework other than Bootstrap.
