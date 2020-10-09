@@ -55,4 +55,9 @@
 
 .nav-wrapper {
   background-color: goldenrod;
+  min-width: 100%;
+}
+
+.material-icons {
+  text-align: center;
 }
