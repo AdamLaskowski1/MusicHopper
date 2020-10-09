@@ -1,80 +1,80 @@
 .container {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 #foodImage {
-    height: 200px;
-    width: 200px;
-    margin: auto;
+  height: 200px;
+  width: 200px;
+  margin: auto;
 }
 
 #drinkImage {
-    height: 200px;
-    width: 200px;
-    margin: auto;
-    margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .search{
+text-align: center;
+  border-radius: 50px;
+  background: #f3de53b9;
+  box-shadow:  20px 20px 60px #e2ce4d, 
+              -20px -20px 60px #ffee59;
+}
+
+.card {
+  height: 350px;
+  width: 600px;
+  background-color: rgba(139, 108, 23, 0.513) ;
+}
+
+#searchBox {
   text-align: center;
-    border-radius: 50px;
-    background: #f3de53b9;
-    box-shadow:  20px 20px 60px #e2ce4d, 
-                -20px -20px 60px #ffee59;
-  }
+}
 
-  .card {
-    height: 350px;
-    width: 600px;
-    background-color: rgba(139, 108, 23, 0.513) ;
-  }
+.food {
+  text-align: center;
+}
 
-  #searchBox {
-    text-align: center;
-  }
+#drinkInstuctions {
+    font-size: 18px;
+    line-height: 1.4em;
+}
 
-  .food {
-    text-align: center;
-  }
-
-  #drinkInstuctions {
-      font-size: 18px;
-      line-height: 1.4em;
-  }
-
-  #drinkTitle {
-      text-align: center;
-      font-weight: bolder;
-  }
-
-  #foodTitle {
+#drinkTitle {
     text-align: center;
     font-weight: bolder;
 }
 
+#foodTitle {
+  text-align: center;
+  font-weight: bolder;
+}
+
 .nav-wrapper {
-  background-color: goldenrod;
-  min-width: 100%;
+background-color: goldenrod;
+min-width: 100%;
 }
 
 .material-icons {
-  text-align: center;
+text-align: center;
 }
 
 #copyrightText {
-  text-align: center;
-  color: white;
-  margin-bottom: 30px;
+text-align: center;
+color: white;
+margin-bottom: 30px;
 }
 
 #headerTitle {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #links:hover {
-  color: goldenrod;
+color: goldenrod;
 }
 
 #links {
-  color: white;
+color: white;
 }
