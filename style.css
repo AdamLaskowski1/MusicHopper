@@ -29,6 +29,12 @@ text-align: center;
   background-color: rgba(139, 108, 23, 0.513) ;
 }
 
+#card-size {
+  height: 500px;
+  width: 600px;
+  background-color: rgba(139, 108, 23, 0.513) ;
+}
+
 #searchBox {
   text-align: center;
 }
@@ -77,4 +83,10 @@ color: goldenrod;
 
 #links {
 color: white;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
 }

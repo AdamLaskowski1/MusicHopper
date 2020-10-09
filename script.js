@@ -62,6 +62,23 @@ function loadFD(category){
             var drinkInstructions = randomDrink.strInstructions;
             drinkInstructionsEl.text(drinkInstructions)
             console.log(randomDrink);
+
+            // var strIngredient = 
+            var values = Object.values(randomDrink);
+            console.log(Object.values(randomDrink));
+            console.log(values[21]);
+            var i = 21;
+            ingredientsContainer.empty();
+            while (i < 35) {
+                i++;
+                var strIngredient = values[i];
+                var ingredients = $('<li>');
+                ingredients.text(strIngredient);
+                ingredientsContainer.append(ingredients);
+                if (strIngredient === null) break;
+                
+                // console.log(strIngredient);
+            }
             // for() {
             // }
             // console.log("meal db", mealDB);
