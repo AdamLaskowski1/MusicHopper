@@ -16,10 +16,11 @@
 }
 
 .search{
-    border-radius: 50%;
-    background: #34e2e5;
-    box-shadow: inset 5px -5px 5px #2bbcbe, 
-                inset -5px 5px 5px #3dffff;
+  text-align: center;
+    border-radius: 50px;
+    background: #f3de53b9;
+    box-shadow:  20px 20px 60px #e2ce4d, 
+                -20px -20px 60px #ffee59;
   }
 
   .card {
@@ -43,10 +44,12 @@
 
   #drinkTitle {
       text-align: center;
+      font-weight: bolder;
   }
 
   #foodTitle {
     text-align: center;
+    font-weight: bolder;
 }
 
 .nav-wrapper {
@@ -56,4 +59,22 @@
 
 .material-icons {
   text-align: center;
+}
+
+#copyrightText {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#headerTitle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#links:hover {
+  color: goldenrod;
+}
+
+#links {
+  color: white;
 }
